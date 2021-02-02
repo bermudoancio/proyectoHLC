@@ -10,7 +10,9 @@ define ('_ROOT_PATH_', 'C:/xampp-jose/htdocs/proyecto');
 define ('DB_HOST', 'localhost');
 define ('DB_USER', 'root');
 define ('DB_PASS', '');
-define ('DB_NAME', 'login');
+define ('DB_NAME', 'proyecto');
+
+$mysql = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 define ('_WEB_PATH_', 'http://' . $_SERVER['SERVER_NAME'] . '/proyecto');
 

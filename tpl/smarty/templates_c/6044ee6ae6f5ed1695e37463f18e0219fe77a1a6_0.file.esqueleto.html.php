@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-12-15 12:21:23
+/* Smarty version 3.1.34-dev-7, created on 2020-12-15 12:45:58
   from 'C:\xampp-jose\htdocs\proyecto\tpl\esqueleto.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5fd89c335faeb7_69522126',
+  'unifunc' => 'content_5fd8a1f608efa3_08187155',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6044ee6ae6f5ed1695e37463f18e0219fe77a1a6' => 
     array (
       0 => 'C:\\xampp-jose\\htdocs\\proyecto\\tpl\\esqueleto.html',
-      1 => 1608031200,
+      1 => 1608032193,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5fd89c335faeb7_69522126 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5fd8a1f608efa3_08187155 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="en">
   <head>
@@ -88,7 +88,8 @@ function content_5fd89c335faeb7_69522126 (Smarty_Internal_Template $_smarty_tpl)
         <?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['_WEB_PATH_']->value;?>
 /js/dashboard.js"><?php echo '</script'; ?>
-></body>
+>
+  </body>
 </html>
 <?php }
 }
